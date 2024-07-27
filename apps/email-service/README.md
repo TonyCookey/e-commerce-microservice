@@ -1,10 +1,8 @@
-# ECommerce Application
-
-microservice-based system for a simple e-commerce application
+# Email Service
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This handles sending emails to newly registered users.
 
 ## Installation
 
@@ -14,15 +12,17 @@ $ npm install
 
 ## Running the app
 
+From the Root directory
+
 ```bash
 # development
-$ npm run start
+$ npm run start email-service
 
 # watch mode
-$ npm run start:dev
+$ npm run start:dev email-service
 
 # production mode
-$ npm run start:prod
+$ npm run start:prod email-service
 ```
 
 ## Test
